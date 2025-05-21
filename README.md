@@ -9,7 +9,7 @@ This Flutter-based mobile app aims to automate the categorization of online news
    
 4. Trend chart for current hot genres**
 
-# Technologies used
+# Tech Stack
 # **💻 Frontend (Mobile App)**
 
 **Flutter** – Cross-platform UI toolkit for building natively compiled mobile apps.
@@ -152,7 +152,7 @@ Example:
 
 final baseUrl = "http://10.0.2.2:5000";
 ________________________________________
-# **🧪 Test Workflow** 
+# **🧪Article-Based Workflow** 
 1.	User provides URL of a news article
 2.	Extracts and summarizes article content.
 3.	Generates BERT embeddings.
@@ -160,7 +160,7 @@ ________________________________________
 5.	Performs sentiment analysis.
 6.	Displays results in the app.
    
-# **🧪 Test Workflow ( for Trend Analysis)**
+# **🧪Country-Based Trend Workflow**
 1.	Select a country in the app.
 2.	App fetches news articles using NewsAPI.
 3.	Extracts and summarizes article content.
@@ -171,21 +171,21 @@ ________________________________________
 
 # **Key Features of the App**
 
-# **1. Fetch News by Country (Trend Analysis)**
+# **📰 1. News Fetching and Trend Analysis**
 
-•	Allows users to select a country.
+•	Fetches top headlines from selected countries using **NewsAPI**
 
-•	Retrieves top headlines using NewsAPI.
+•	Supports fallback to India if selected region has no data
 
-•	Supports fallback for India if data is unavailable.
+•	Displays genre trends over time
 
-# **2. BERT-Based Embedding**
+# **🧠 2. BERT-Based Embedding**
 
 •	Uses Sentence-BERT (all-MiniLM-L6-v2) to convert article content into semantic embeddings.
 
 •	Enables deeper understanding of news content beyond just keywords.
 
-# **3. Multi-Algorithm Clustering**
+# **📊 3. Multi-Algorithm Clustering**
 
 •	Applies four powerful clustering algorithms to group news:
 
@@ -199,43 +199,43 @@ o	GMM (Gaussian Mixture Model)
 
 •	Helps discover topic-based clusters or genres automatically.
 
-# **4. Clustering Evaluation Metrics**
+# **🧪4. Clustering Evaluation Metrics**
 
 •	Calculates quality of clustering using:
 
-o	Silhouette Score
+o	**Silhouette Score**
 
-o	Davies-Bouldin Index
+o	**Davies-Bouldin Index**
 
-o	Calinski-Harabasz Score
+o	**Calinski-Harabasz Score**
 
 •	Allows comparison of algorithm performance.
 
-# **5. Sentiment Analysis**
+# **😊 5. Sentiment Analysis**
 
 •	Performs BERT-based sentiment analysis on each article.
 
-•	Labels articles as Positive, Negative, or Neutral.
+•	Labels articles as **Positive, Negative, or Neutral.**
 
 •	Gives users an emotional overview of current news.
 
-# **6. News Summarization**
+# **📝 6. News Summarization**
 
 •	Summarizes each news article using Latent Semantic Analysis (LSA) from sumy.
 
 •	Presents users with quick summaries for faster reading.
 
-# **7. News Translation**
+# **🌐 7. News Translation**
 
 •	User can translate the summarized news into any desired language
 
-# **8. Text-to-Voice**
+# **🔊 8. Text-to-Voice**
 
 •	User can listen to the summarised voice
 
-# **8. Users - Feedback System**
+# **💬 8. Users - Feedback System**
 
-•	Collects feedbacks from users for improvements.
+•	Built-in feedback form to gather suggestions and improvements
 
 # **9. Mobile Interface (Flutter)**
 
