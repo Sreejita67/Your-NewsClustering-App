@@ -48,7 +48,7 @@ This Flutter-based mobile app aims to automate the categorization of online news
 
 **BERT (Pretrained model)** – For context-aware sentiment classification.
 
-# 🧪 **Development & Testing Tools**
+# 🧪Development & Testing Tools
 
 **Postman** – For testing API endpoints.
 
@@ -56,7 +56,7 @@ This Flutter-based mobile app aims to automate the categorization of online news
 
 **Android Studio** – IDE for Flutter app development.
 
-# **Model Deployment **
+# Model Deployment 
 
 **ngrok** - For exposing the Flask API to the app
 
