@@ -171,7 +171,7 @@ ________________________________________
 
 # **Key Features of the App**
 
-# **🗞️ 1. Fetch News by Country (Trend Analysis)**
+# **1. Fetch News by Country (Trend Analysis)**
 
 •	Allows users to select a country.
 
@@ -179,13 +179,13 @@ ________________________________________
 
 •	Supports fallback for India if data is unavailable.
 
-# **🧠 2. BERT-Based Embedding**
+# **2. BERT-Based Embedding**
 
 •	Uses Sentence-BERT (all-MiniLM-L6-v2) to convert article content into semantic embeddings.
 
 •	Enables deeper understanding of news content beyond just keywords.
 
-# **📊 3. Multi-Algorithm Clustering**
+# **3. Multi-Algorithm Clustering**
 
 •	Applies four powerful clustering algorithms to group news:
 
@@ -199,7 +199,7 @@ o	GMM (Gaussian Mixture Model)
 
 •	Helps discover topic-based clusters or genres automatically.
 
-# **🧪 4. Clustering Evaluation Metrics**
+# **4. Clustering Evaluation Metrics**
 
 •	Calculates quality of clustering using:
 
@@ -211,7 +211,7 @@ o	Calinski-Harabasz Score
 
 •	Allows comparison of algorithm performance.
 
-# **💬 5. Sentiment Analysis**
+# **5. Sentiment Analysis**
 
 •	Performs BERT-based sentiment analysis on each article.
 
@@ -219,7 +219,7 @@ o	Calinski-Harabasz Score
 
 •	Gives users an emotional overview of current news.
 
-# **📚 6. News Summarization**
+# **6. News Summarization**
 
 •	Summarizes each news article using Latent Semantic Analysis (LSA) from sumy.
 
@@ -233,7 +233,11 @@ o	Calinski-Harabasz Score
 
 •	User can listen to the summarised voice
 
-# **📱 9. Mobile Interface (Flutter)**
+# **8. Users - Feedback System**
+
+•	Collects feedbacks from users for improvements.
+
+# **9. Mobile Interface (Flutter)**
 
 •	Simple and intuitive Flutter-based frontend.
 
@@ -247,11 +251,46 @@ o	Read summaries
 
 o	View clustering results and sentiments
 
-# **🌐 10. Backend Integration via Flask**
+# **10. Backend Integration via Flask**
 
 •	ML processing (BERT, clustering, metrics) is handled via a Flask backend.
 
 •	Ensures fast and scalable processing for real-time results.
+
+# Target Customers / Users
+
+# 1. General News Readers
+
+•	Users who want a personalized, categorized news experience
+
+•	People interested in exploring news by genre rather than just chronological order
+
+# 2. Journalists & Media Professionals
+
+•	Useful for identifying trends and sentiment in public news content
+
+•	Helps monitor how news stories are framed and received across genres and regions
+
+# 3. Researchers & Students (NLP, ML, Media Studies)
+
+•	A practical tool to study text clustering, genre classification, and public sentiment
+
+•	Helps in exploring news bias, genre-based framing, and regional trends
+
+# 4. Data Scientists & Developers 
+
+•	Beneficial for those looking to understand real-world ML/NLP integration 
+
+•	Can inspire similar applications for text clustering and sentiment analysis
+
+# 5. Policy Analysts / NGOs
+•	Those monitoring media discourse and public sentiment on critical issues (e.g., healthcare, politics, climate)
+
+•	Helps in identifying regional news patterns and sentiment
+
+# 6. Content Aggregators / Curators
+•	Use the clustering mechanism to filter, group, and re-publish news content
+•	Enhances automated content curation workflows
 
 # Demonstration of the App
 
